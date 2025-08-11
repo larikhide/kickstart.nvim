@@ -20,6 +20,11 @@ return {
           ['\\'] = 'close_window',
         },
       },
+      follow_current_file = {
+        enabled = true,
+      },
+      use_libuv_file_watcher = true,
     },
+    git_status_async = false,
   },
 }
